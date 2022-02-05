@@ -1,4 +1,4 @@
-### Employer app backend with Java Spring Boot and Mysql
+# Employer app backend with Java Spring Boot and Mysql
 
 To run the application
 ```sh

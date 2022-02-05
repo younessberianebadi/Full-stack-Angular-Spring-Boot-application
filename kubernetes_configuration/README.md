@@ -1,4 +1,4 @@
-### Deploying in kubernetes manually
+# Deploying in kubernetes manually
 
 ## Creating volumes
 

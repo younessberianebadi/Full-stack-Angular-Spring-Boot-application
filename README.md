@@ -1,4 +1,4 @@
-### Full-stack application (Angular/Spring Boot) with Kubernetes deployment
+# Full-stack application (Angular/Spring Boot) with Kubernetes deployment
 
 ## Frontend
 
@@ -18,10 +18,10 @@ mvn spring-boot:run
 
 ## Deployment in Kubernetes
 
-# Using kubectl
+### Using kubectl
 
 You can deploy the application by following instructions in the Kubernetes configuration folder.
 
-# ArgoCD
+### ArgoCD
 
 Deploy a CD Pipeline using ArgoCD
