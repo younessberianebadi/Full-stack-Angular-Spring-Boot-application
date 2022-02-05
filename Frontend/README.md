@@ -12,4 +12,3 @@ Tag and push:
 docker tag frontend:tag yourepo/frontend:tag;
 docker push yourepo/frontend:tag
 ```
-k

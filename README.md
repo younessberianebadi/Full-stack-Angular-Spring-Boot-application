@@ -4,7 +4,7 @@
 
 To run the Angular application:
 
-````sh
+```sh
 cd Frontend/;
 npm run build;
 ng serve
