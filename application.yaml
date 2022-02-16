@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: roman-museum-app
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    repoURL: https://gitlab.com/younessberianebadi/Full-stack-Angular-Spring-Boot-application.git
+    targetRevision: HEAD
+    path: kubernetes_configuration
+  destination: 
+    server: https://kubernetes.default.svc
+    namespace: fullstackapp
+
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+
+    automated:
+      selfHeal: true
+      prune: true

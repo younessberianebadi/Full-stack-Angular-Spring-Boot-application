@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: frontend-app
-          image: younessberianebadi/frontendangular:1.2
+          image: younessberianebadi/frontendangular:1.6
           imagePullPolicy: Always
           ports:
           - containerPort: 80
