@@ -25,3 +25,11 @@ You can deploy the application by following instructions in the Kubernetes confi
 ### ArgoCD
 
 Deploy a CD Pipeline using ArgoCD
+
+After successfully deploying ArgoCD in your cluster using the guide [Argo CD - Declarative GitOps CD for Kubernetes](https://argo-cd.readthedocs.io/en/stable/getting_started/)
+
+Execute the following command
+
+```sh
+kubectl apply -f application.yaml
+```
