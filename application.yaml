@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/younessberianebadi/Full-stack-Angular-Spring-Boot-application.git
+    repoURL: https://github.com/younessberianebadi/Full-stack-Angular-Spring-Boot-application.git
     targetRevision: HEAD
     path: kubernetes_configuration
   destination: 
