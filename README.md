@@ -33,3 +33,7 @@ Execute the following command
 ```sh
 kubectl apply -f application.yaml
 ```
+
+Browse to the ArgoCD UI
+
+ ![ArgoCD UI](/images/ui.jpeg)
